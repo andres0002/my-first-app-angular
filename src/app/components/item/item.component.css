@@ -1,0 +1,54 @@
+.row {
+    display: flex;
+    box-sizing: border-box;
+}
+
+div {
+    padding: 5px 0;
+}
+
+.id {
+    display: flex;
+    width: 10%;
+    color: brown;
+    padding: 0 5px;
+}
+
+.title {
+    width: 10%;
+    color: seagreen;
+    padding: 0 5px;
+}
+
+.price {
+    width: 10%;
+    color: red;
+    padding: 0 5px;
+}
+
+.quantity {
+    width: 10%;
+    color: green;
+    padding: 0 5px;
+}
+
+.completed {
+    width: 10%;
+    color: blue;
+    padding: 0 5px;
+}
+
+.total {
+    width: 10%;
+    padding: 0 5px;
+    color: red;
+}
+
+.actions {
+    
+}
+
+.btn-d {
+    color: white;
+    background-color: rgb(196, 109, 109);
+}
