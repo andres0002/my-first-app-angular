@@ -1,0 +1,56 @@
+<div class="container">
+    <form class="action" (ngSubmit)="onSubmit()">
+        <table>
+            <hr>
+            <h1>Add New Article</h1>
+            <hr>
+            <div class="input-group">
+                <label><strong>Id Article</strong></label><hr>
+                <input 
+                    type="text"
+                    name="id"
+                    class="form-control"
+                    placeholder="Add id of the mew article."
+                    [(ngModel)]="id"
+                >
+            </div>
+            <hr>
+            <div class="input-group">
+                <label><strong>Name Article</strong></label><hr>
+                <input 
+                    type="text"
+                    name="title"
+                    class="form-control"
+                    placeholder="Add name of the mew article."
+                    [(ngModel)]="title"
+                >
+            </div>
+            <hr>
+            <div class="input-group">
+                <label><strong>Price Article</strong></label><hr>
+                <input 
+                    type="text"
+                    name="price"
+                    class="form-control"
+                    placeholder="Add preci of the new article."
+                    [(ngModel)]="price"
+                >
+            </div>
+            <hr>
+            <div class="input-group">
+                <label><strong>Quantity Article</strong></label>
+                <hr>
+                <input 
+                    type="text" 
+                    name="quantity"
+                    class="form-control"
+                    placeholder="Add quantity of the new article."
+                    [(ngModel)]="quantity"
+                >
+            </div>
+            <hr>
+            <input type="submit" value="Add" class="btn-a">
+            <hr>
+        </table>
+    </form>
+</div>
